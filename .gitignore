@@ -1,0 +1,20 @@
+# Build output
+bin/
+obj/
+*.user
+*.suo
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.swp
+
+# Test and publish output
+TestResults/
+publish/
+*.binlog
+
+# OS files
+Thumbs.db
+.DS_Store
