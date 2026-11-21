@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <!-- lets it build on Linux/macOS too (it still only runs on Windows) -->
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <RootNamespace>WaveVisualiser</RootNamespace>
+    <AssemblyName>WaveVisualiser</AssemblyName>
+  </PropertyGroup>
+
+</Project>
